@@ -9,10 +9,12 @@ import routes from './routes';
 
 render(
 	<Provider store={store}>
-		<Router history={hashHistory} routes={routes}/>
-			////<DevTools />
+		<h1>
+			<Router history={hashHistory} routes={routes}/>
+			<DevTools />
+		</h1>
 	</Provider>,
 	document.getElementById('root')
 );
 
-////store.dispatch(getCountries());
+//store.dispatch(getCountries());
