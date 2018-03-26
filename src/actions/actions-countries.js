@@ -21,7 +21,7 @@ export function getCountry(id) {
 		id
 	}
 }
-export function searchCounties(searchText) {
+export function searchCountries(searchText) {
 	return {
 		type: SEARCH_COUNTRIES,
 		searchText
